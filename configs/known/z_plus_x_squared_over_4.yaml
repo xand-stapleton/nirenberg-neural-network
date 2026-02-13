@@ -1,0 +1,41 @@
+cfg:
+  wandb_project: Ainstein_kw
+  wandb_entity: logml
+
+  data:
+    num_patches: 2
+    # Number of samples per patch
+    num_samples: 20_000
+    # Patch overlap
+    radial_offset: 0.0
+    prescribed_R: z_plus_x_squared_over_four
+    batch_size: 200
+    expected_existence: false
+
+  network:
+    num_hidden: 64
+    # Number of residual blocks
+    num_layers: 6
+    activation: silu
+    use_bias: true
+    # Use random Fourier feature embedding
+    use_rffs: true
+    num_rffs: 32
+    rff_sigma: 1.0
+
+  loss:
+    scalar_loss:
+      multiplier: 1.0
+
+  optim:
+    epochs: 150
+    lr: 0.001
+    checkpoint_freq: null
+    scheduler:
+      kind: exponential_decay
+      kwargs:
+        # Recommended: (num_samples / batch_size) * 20
+        decay_steps: 2_000
+        decay_rate: 0.5
+        staircase: false
+

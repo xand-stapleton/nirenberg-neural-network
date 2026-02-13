@@ -1,0 +1,16 @@
+.DS_Store
+tags
+__pycache__
+callbacks/
+wandb
+visualisations/**
+!visualisations/.gitkeep
+checkpoints/**
+!checkpoints/.gitkeep
+results/**
+!results/.gitkeep
+results/sh_expansion/**
+!results/sh_expansion/.gitkeep
+.ipynb_checkpoints
+.venv
+scratch/

@@ -1,0 +1,35 @@
+cfg:
+  wandb_project: Ainstein_kw
+  wandb_entity: logml
+  data:
+    num_patches: 2
+    num_samples: 20000
+    radial_offset: 0.0
+    prescribed_R:
+      kind: sh
+      kwargs:
+        l: 3
+        m: 1
+    batch_size: 200
+    expected_existence: null
+  network:
+    num_hidden: 64
+    num_layers: 6
+    activation: silu
+    use_bias: true
+    use_rffs: true
+    num_rffs: 32
+    rff_sigma: 1.0
+  loss:
+    scalar_loss:
+      multiplier: 1.0
+  optim:
+    epochs: 150
+    lr: 0.001
+    checkpoint_freq: null
+    scheduler:
+      kind: exponential_decay
+      kwargs:
+        decay_steps: 2000
+        decay_rate: 0.5
+        staircase: false
