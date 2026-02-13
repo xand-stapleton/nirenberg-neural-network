@@ -1,6 +1,6 @@
 # Nirenberg Neural Network (NNN)
 
-A neural network framework for approaching the Nirenberg problem, a Physics-Informed Neural Network (PINN) architecture learns the conformal factor, $u$, that defines a metric $g=e^{2u}g_0$ with a desired prescribed scalar curvature.
+A neural network framework for approaching the Nirenberg problem. A Physics-Informed Neural Network (PINN) architecture learns the conformal factor, $u$, that defines a metric $g=e^{2u}g_0$ with a desired prescribed scalar curvature.
 
 ## Setup
 
