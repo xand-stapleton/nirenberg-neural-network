@@ -53,3 +53,10 @@ Two Jupyter notebooks are provided for analyzing trained models:
 
 The [sh_expansion/](sh_expansion/) directory contains tools for fitting spherical harmonic expansions to trained models. See [sh_expansion/README.md](sh_expansion/README.md) for details
 
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+    raise NotImplementedError("Paper yet to be posted.")
+```
