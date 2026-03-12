@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+title: Nirenberg Neural Network (NNN)
+message: If you use this software in your research, please cite both the software and the associated paper.
+type: software
+authors:
+  - family-names: Cortés
+    given-names: Gianfranco
+  - family-names: Esteban-Casadevall
+    given-names: Maria
+  - family-names: Feng
+    given-names: Yueqing
+  - family-names: Henkel
+    given-names: Jonas
+  - family-names: Hirst
+    given-names: Edward
+  - family-names: Schettini Gherardini
+    given-names: Tancredi
+  - family-names: Stapleton
+    given-names: Alexander G.
+identifiers:
+  - type: url
+    value: https://github.com/xand-stapleton/nirenberg-neural-network
+  - type: arxiv
+    value: 2602.12368
+repository-code: https://github.com/xand-stapleton/nirenberg-neural-network
+url: https://arxiv.org/abs/2602.12368
+abstract: A neural network framework for approaching the Nirenberg problem. A Physics-Informed Neural Network (PINN) architecture learns the conformal factor that defines a metric with desired scalar curvature.
+keywords:
+  - neural networks
+  - physics-informed neural networks
+  - nirenberg problem
+  - differential geometry
+  - machine learning
+license: MIT
+version: 1.0.0
+date-released: 2026-03-12
+references:
+  - type: article
+    authors:
+      - family-names: Cortés
+        given-names: Gianfranco
+      - family-names: Esteban-Casadevall
+        given-names: Maria
+      - family-names: Feng
+        given-names: Yueqing
+      - family-names: Henkel
+        given-names: Jonas
+      - family-names: Hirst
+        given-names: Edward
+      - family-names: Schettini Gherardini
+        given-names: Tancredi
+      - family-names: Stapleton
+        given-names: Alexander G.
+    title: A Machine Learning Approach to the Nirenberg Problem
+    year: 2026
+    journal: arXiv
+    volume: 2602.12368
+    identifiers:
+      - type: arxiv
+        value: 2602.12368
+    url: https://arxiv.org/abs/2602.12368
