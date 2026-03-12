@@ -58,5 +58,13 @@ The [sh_expansion/](sh_expansion/) directory contains tools for fitting spherica
 If you use this code in your research, please cite:
 
 ```bibtex
-    raise NotImplementedError("Paper yet to be posted.")
+    @misc{cortés2026machinelearningapproachnirenberg,
+      title={A Machine Learning Approach to the Nirenberg Problem}, 
+      author={Gianfranco Cortés and Maria Esteban-Casadevall and Yueqing Feng and Jonas Henkel and Edward Hirst and Tancredi Schettini Gherardini and Alexander G. Stapleton},
+      year={2026},
+      eprint={2602.12368},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.12368}, 
+}
 ```
